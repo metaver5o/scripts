@@ -1,12 +1,12 @@
 #!/bin/sh
-# simple shell script to sync foles and folders between 2 servers
-# Marco Matos marco@marco.ae
+# simple shell script to sync files and folders between 2 servers
+# Marco Matos marco@mmatos.com
 
 # Edit these parameters first with your own data before running the script
 LOCALDIR="/docker-data"
 REMOTEDIR="/docker-data"
 REMOTESERVER="172.16.xxx.x"
-USERNAME="devops" 
+USERNAME="devops"
 
 # create ssh keys if not present for current user
 if [ ! -f ~/.ssh/id_rsa ]; then
