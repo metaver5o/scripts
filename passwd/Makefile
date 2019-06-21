@@ -1,4 +1,4 @@
-.PHONY: select Linux OSX L O  
+.PHONY: select Linux OSX 
 
 all: select
 
