@@ -1,3 +1,6 @@
+esc=`echo -en "\033"`
+green="${esc}[0;32m"
+
 .PHONY: select Linux OSX 
 
 all: select
